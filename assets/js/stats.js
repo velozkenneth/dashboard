@@ -244,6 +244,10 @@ let loadData = () => {
         },
       },
     });
+
+    let newData = [100, 80, 60, 40, 20, 10, 1];
+
+    chart1.Chart.data = newData
 }
 
 loadData()
